@@ -1,6 +1,6 @@
 ﻿// Показать двумерный массив размером mXn заполненный вещественными числами
 Console.Clear();
-void FullArray(double[,] array)
+void FillArray(double[,] array)
 {
     Random rnd = new Random();
     int rowsLength = array.GetLength(0);
@@ -9,7 +9,7 @@ void FullArray(double[,] array)
     {
         for (int j = 0; j < columnsLength; j++)
         {
-            array[i, j] = rnd.NextDouble();
+            array[i, j] = new Random().Next(-10000,10000);
         }
     }
 }
@@ -22,7 +22,7 @@ void PrintArray(double[,] array)
     {
         for (int j = 0; j < columnsLength; j++)
         {
-            Console.Write(" {0:F8} ", array[i, j] + "  ");
+            Console.Write($"{array[i, j]}   ");
         }
         Console.WriteLine();
     }
@@ -33,5 +33,5 @@ int rows = int.Parse(Console.ReadLine() ?? "");
 Console.Write("Введите количество столбцов: ");
 int columns = int.Parse(Console.ReadLine() ?? "");
 double[,] array = new double[rows, columns];
-FullArray(array);
+FillArray(array);
 PrintArray(array);
