@@ -1,0 +1,15 @@
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/bin/Debug/net6.0/example01
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/bin/Debug/net6.0/example01.deps.json
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/bin/Debug/net6.0/example01.runtimeconfig.json
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/bin/Debug/net6.0/example01.dll
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/bin/Debug/net6.0/example01.pdb
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/obj/Debug/net6.0/example01.csproj.AssemblyReference.cache
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/obj/Debug/net6.0/example01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/obj/Debug/net6.0/example01.AssemblyInfoInputs.cache
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/obj/Debug/net6.0/example01.AssemblyInfo.cs
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/obj/Debug/net6.0/example01.csproj.CoreCompileInputs.cache
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/obj/Debug/net6.0/example01.dll
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/obj/Debug/net6.0/refint/example01.dll
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/obj/Debug/net6.0/example01.pdb
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/obj/Debug/net6.0/example01.genruntimeconfig.cache
+/Users/evgenijsaraborin/Documents/GB/homework/seminar6/homework/example01/obj/Debug/net6.0/ref/example01.dll
