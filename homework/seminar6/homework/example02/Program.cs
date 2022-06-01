@@ -1,11 +1,11 @@
-﻿// Задать двумерный массив следующим правилом: Aₘₙ = m+n
-void FullArrayAnm (int [,] array)
+// Задать двумерный массив следующим правилом: Aₘₙ = m+n
+void FillArray (int [,] array)
 {
     for (int m = 0;m < array.GetLength(0);m++)
     {
         for(int n = 0;n < array.GetLength(1);n++)
         {
-            array[m,n] = m + n;
+            array[m,n] = m + n + 2; // Первое число в первой строке 1 + 1 = 2 поправка на человеческое восприятие
         }
     }
 }
@@ -20,11 +20,14 @@ void PrintArray (int [,]array)
       Console.WriteLine(" ");
     }
 }
-Console.Write("Enter the number of rows in the array: ");
+Console.Write("Введите количество строк: ");
 int m = int.Parse(Console.ReadLine()??"");
-Console.Write("Enter the number of columns in the array: ");
+
+Console.Write("Введите количество столбцов: ");
 int n = int.Parse(Console.ReadLine()?? "");
+
 int[,]array = new int[m,n];
-Console.WriteLine("fill array with rule Amn = N + M :");
-FullArrayAnm(array);
+Console.WriteLine("Заполним массив с правилом Amn = N + M :");
+
+FillArray(array);
 PrintArray(array);
